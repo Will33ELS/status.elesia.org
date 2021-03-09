@@ -8,3 +8,13 @@
     border-radius: 5px;
   }
 }
+
+.error{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25em;
+  svg{
+    color: #e53935;
+    font-size: 2em;
+  }
+}
