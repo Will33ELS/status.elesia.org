@@ -1,0 +1,19 @@
+.round{
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  vertical-align: text-bottom;
+  border-radius: 50%;
+  &-green{
+    background-color: #43a047;
+  }
+  &-orange{
+    background-color: #fb8c00;
+  }
+  &-blue{
+    background-color: #007bff;
+  }
+  &-red{
+    background-color: #e53935;
+  }
+}
