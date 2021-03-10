@@ -18,10 +18,10 @@ function App() {
                             <div className="px-lg-5 py-4">
                                 <Switch>
                                     <Route path="/" exact>
-                                        <Organisation key="1" apiURL="http://localhost:3000/" />
+                                        <Organisation key="1" apiURL="https://status.elesia.org/api/" />
                                     </Route>
                                     <Route path="/mojang" exact>
-                                        <Organisation key="2" apiURL="http://localhost:3000/mojang" />
+                                        <Organisation key="2" apiURL="https://status.elesia.org/api/mojang" />
                                     </Route>
                                 </Switch>
                             </div>
