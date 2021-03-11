@@ -1,11 +1,13 @@
-import '../style/Footer.scss'
+import "../style/Footer.scss";
 
-function Footer(){
-    return (
-        <footer>
-            <p className="m-3">@ Application développé par <a href="https://william-aventin.fr">William AVENTIN</a> pour <a href="https://www.elesia.org">Elesia SAS</a>, tous droit réservé</p>
-        </footer>
-    )
+function Footer() {
+	return (
+			<footer>
+				<p className="m-3">
+					{new Date().getFullYear()} &copy; Application développée par <a href="https://william-aventin.fr" target="_blank" rel="noopener noreferrer">William AVENTIN</a> pour <a href="https://www.elesia.org" target="_blank" rel="noopener noreferrer">Elesia SAS</a>, tous droits réservés
+				</p>
+			</footer>
+	);
 }
 
-export default Footer
+export default Footer;

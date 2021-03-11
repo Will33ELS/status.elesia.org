@@ -1,9 +1,9 @@
-.item:not(:last-child){
-  margin-bottom: 20px;
-}
+.item {
+	background-color: #26374c;
+	font-size: 1.2em;
+	border-radius: 5px;
 
-.item{
-  background-color: #26374c;
-  font-size: 1.2em;
-  border-radius: 5px;
+	&:not(:last-child) {
+		margin-bottom: 20px;
+	}
 }
